@@ -1,0 +1,20 @@
+Calculus Demo Course — Continuity & Limits
+
+Overview:
+A function $f(x)$ is continuous at $x = a$ if three conditions are satisfied:
+1. $f(a)$ is defined (the point exists in the domain).
+2. The limit $\lim_{x \to a} f(x)$ exists.
+3. The limit $\lim_{x \to a} f(x) = f(a)$.
+
+Discontinuity Types:
+1. Removable Discontinuity: Occurs when $\lim_{x \to a} f(x)$ exists, but $f(a)$ is undefined or does not equal the limit.
+   Example: $f(x) = \frac{x^2 - 1}{x - 1}$ for $x \neq 1$. Simplification yields $g(x) = x + 1$. The limit $\lim_{x \to 1} f(x) = 2$. If $f(1)$ is undefined, it is a removable discontinuity.
+2. Jump Discontinuity: Occurs when the left-hand limit $\lim_{x \to a^-} f(x)$ and right-hand limit $\lim_{x \to a^+} f(x)$ both exist, but are not equal ($\lim_{x \to a^-} f(x) \neq \lim_{x \to a^+} f(x)$).
+   Example: Piecewise function where $f(x) = x$ for $x < 1$ and $f(x) = x + 2$ for $x \ge 1$. Left limit is $1$, right limit is $3$.
+
+5-Step Problem Solving Sequence:
+Step 1: Check whether $f(a)$ is defined.
+Step 2: Compute the left-hand limit $\lim_{x \to a^-} f(x)$.
+Step 3: Compute the right-hand limit $\lim_{x \to a^+} f(x)$.
+Step 4: Compare left-hand and right-hand limits to confirm if overall limit $\lim_{x \to a} f(x)$ exists.
+Step 5: Compare the overall limit with $f(a)$ to confirm continuity.
