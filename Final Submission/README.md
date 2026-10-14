@@ -54,6 +54,5 @@ streamlit run app.py
 * `app.py` — Complete Streamlit Web Application (Multi-format parser, RAG engine, learner model, evaluation view).
 * `requirements.txt` — Python dependencies (`streamlit`, `pandas`, `pypdf`, `python-pptx`, `python-docx`, `openai`, `pytest`).
 * `demo_course.txt` — Bundled Calculus course content on Continuity & Limits.
-* `JUDGE_PITCH.md` — 3-Minute Master Pitch Script & Q&A Defense.
 * `EVALUATION_PLAN.md` — Comprehensive 4-pillar benchmark report.
 * `README.md` — System documentation & setup guide.
